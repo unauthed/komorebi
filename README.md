@@ -1,5 +1,8 @@
 # Komorebi
 
+Komorebi a Japanese word that refers to the sunlight that filters through the leaves of trees.
+A special and beautiful moment...
+
 This README outlines the details of collaborating on this Ember application.
 A short introduction of this app could easily go here.
 
