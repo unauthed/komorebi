@@ -1,0 +1,42 @@
+<div class="jumbotron">
+   <p class="text-muted">Open source Digital Asset Management platform of great simplicity and beauty</p>
+   <div class="input-group input-group-lg">
+      <input type="text" class="form-control input-lg" style="outline:none; box-shadow:none;" id="search-txt" accesskey="s" placeholder="Search for files and file content...">
+      <span class="input-group-btn">
+      <button class="btn btn-default btn-lg" id="search-btn">Search</button>
+      <button class="btn btn-default btn-lg" id="clear-search-btn">Clear</button>
+      </span>
+   </div>
+</div>
+<div class="panel panel-default">
+   <div class="panel-heading">
+      <a href="#" class="pull-right" id="refresh-expose-lnk">Refresh</a>
+      <h3 class="panel-title">WABi Expose service for file download</h3>
+   </div>
+   <div class="panel-body">
+      <ol class="breadcrumb">
+         <li><a href="/">Assets</a></li>
+         <li class="active">2016</li>
+      </ol>
+      <h5 class="expose-content">Processing... </h5>
+      <nav>
+        <ul class="pager">
+          <li class="disabled"><a href="#" id="prev-expose-lnk">Previous</a></li>
+          <li class="disabled"><a href="#" id="next-expose-lnk">Next</a></li>
+        </ul>
+      </nav>
+   </div>
+</div>
+<div class="panel panel-default">
+   <div class="panel-body">
+      <div id="dropzone">
+         <form action="upload" class="dropzone needsclick dz-clickable" id="upload-form">
+            <div class="dz-message needsclick">Drop files here or click to upload.<br><span class="note needsclick">(The max file size for this server is <strong>100 MB</strong>.)</span></div>
+         </form>
+      </div>
+   </div>
+   <div class="panel-footer">
+      <a href="#" class="pull-right" id="clear-ingest-lnk">Clear</a>
+      <h3 class="panel-title">WABi Ingest service for file upload</h3>
+   </div>
+</div>

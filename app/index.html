@@ -1,16 +1,21 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Komorebi</title>
-    <meta name="description" content="">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Open source Digital Asset Management platform of great simplicity and beauty.">
+    <meta name="author" content="urchinly">
+    <title>Komorebi</title>
 
     {{content-for "head"}}
 
     <link rel="stylesheet" href="assets/vendor.css">
     <link rel="stylesheet" href="assets/komorebi.css">
+
+    <link rel="icon" type="image/png" href="favicon-194x194.png" sizes="194x194">
+    <link rel="icon" type="image/png" href="favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16">
 
     {{content-for "head-footer"}}
   </head>
@@ -19,6 +24,10 @@
 
     <script src="assets/vendor.js"></script>
     <script src="assets/komorebi.js"></script>
+
+    <script src="lib/jquery.min.js"></script>
+    <script src="lib/bootstrap.min.js"></script>
+    <script src="lib/dropzone.js"></script>
 
     {{content-for "body-footer"}}
   </body>
