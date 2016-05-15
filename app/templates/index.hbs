@@ -19,6 +19,9 @@
          <li class="active">2016</li>
       </ol>
       <h5 class="expose-content">Processing... </h5>
+{{#each model as |asset|}}
+  {{asset-listing a=asset}}
+{{/each}}
       <nav>
         <ul class="pager">
           <li class="disabled"><a href="#" id="prev-expose-lnk">Previous</a></li>
