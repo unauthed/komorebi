@@ -1,0 +1,30 @@
+FORMAT: 1A
+
+# Komorebi
+
+An API for uploading and downloading file assets.
+
+## Assets Collection [/assets]
+
+### List All Assets [GET]
+
++ Response 200 (application/json)
+
+        {
+            "assets": [
+                {
+                    "id": "one",
+                    "fileName": "Name One",
+                    "filePath": "Path One",
+                    "fileSize": "42",
+                    "contentType": "image/png"
+                },
+                {
+                    "id": "two",
+                    "fileName": "Name Two",
+                    "filePath": "Path Two",
+                    "fileSize": "42",
+                    "contentType": "image/png"
+                }
+            ]
+        }
